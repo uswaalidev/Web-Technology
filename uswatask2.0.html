@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uswa Creations</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #130707;
+        }
+        nav {
+            background-color: #263849;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+        }
+        nav h2 {
+            margin: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 8px;
+        }
+        nav a:hover {
+            background-color: #d67c9a;
+            border-radius: 5px;
+        }
+        .hero {
+            background-image: url("https://images.unsplash.com/photo-1606857521015-7f9fcf423740?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b2ZmaWNlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: rgb(20, 13, 13);
+            text-align: center;
+            padding-top: 120px;
+            box-sizing: border-box;
+        }
+        .hero h1 {
+            font-size: 45px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .hero a {
+            background-color: #d67c9a;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .hero a:hover {
+            background-color: #b85f7c;
+        }
+        .services {
+            padding: 60px 40px;
+            text-align: center;
+            background-color: #551818;
+        }
+        .service-box {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service-box div {
+            background-color: rgb(138, 132, 132);
+            padding: 25px;
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 0 8px #352d2d;
+        }
+        .service-box div:hover {
+            box-shadow: 0 0 15px #999;
+        }
+        .about {
+            padding: 70px 40px;
+            text-align: center;
+            background-image: url("https://www.shutterstock.com/shutterstock/photos/2788794189/display_1500/stock-photo-creative-design-process-landing-page-template-2788794189.jpg");
+            background-size: cover;
+            background-position: center;
+            color: rgb(211, 21, 21);
+        }
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #263849;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        @media screen and (max-width: 700px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+            .hero h1 {
+                font-size: 32px;
+            }
+            .hero p {
+                font-size: 17px;
+            }
+            .service-box {
+                flex-direction: column;
+            }
+            .service-box div {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>Uswa Creations</h2>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <h1>Creating Simple Ideas<br>into Beautiful Designs</h1>
+        <p>
+            I create simple websites and creative
+            digital content with passion and creativity.
+        </p>
+        <a href="#services">Explore Services</a>
+    </section>
+    <section id="services" class="services">
+        <h1>My Services</h1>
+        <div class="service-box">
+            <div>
+                <h2>Web Design</h2>
+                <p>
+                    I create simple and responsive
+                    websites for personal and business needs.
+                </p>
+            </div>
+            <div>
+                <h2>Video Editing</h2>
+                <p>
+                    I create and edit videos for
+                    different types of digital content.
+                </p>
+            </div>
+            <div>
+                <h2>Creative Design</h2>
+                <p>
+                    I create simple designs for
+                    projects, presentations and social media.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h1>About Me</h1>
+        <p>
+            Uswa Creations is my small creative brand.
+            I am interested in web design, video editing
+            and digital content. My goal is to create
+            useful and attractive digital work.
+        </p>
+    </section>
+    <footer id="contact">
+        <h2>Uswa Creations</h2>
+        <p>Email: uswacreations@gmail.com</p>
+        <p>Islamabad, Pakistan</p>
+        <p>© 2026 Uswa Creations</p>
+    </footer>
+</body>
+</html>
